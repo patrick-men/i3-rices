@@ -1,8 +1,6 @@
 # i3-rices
 
-A small collection of the little ricing I do.
-
-This is mostly used with i3 tabbed mode.
+A small collection of the little ricing I do. This is mostly used with i3 tabbed mode.
 
 ## Dependencies:
 
@@ -12,6 +10,6 @@ This is mostly used with i3 tabbed mode.
 - i3-lock/i3-lock-fancy (Screen Locking)
 - feh (Wallpaper)
 - dunst (Notifications Daemon)
-- terminator
+- terminator (Terminal Emulator)
 
 All the files are to be put in ~/.config

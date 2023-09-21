@@ -252,7 +252,6 @@ exec_always ~/.config/polybar/shapes/launch.sh
 
 ## hide bar
 bindsym $mod+n bar mode toggle
-exec --no-startup-id picom --config ~/git/dotfiles/wm/i3/picom-conf-new.conf
 
 # lock
 bindsym $mod+y exec i3lock
