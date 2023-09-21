@@ -24,7 +24,7 @@ font pango:monospace 12
 exec --no-startup-id dex --autostart --environment i3
 
 # Background image
-exec --no-startup-id feh --bg-fill ./alena-aenami-endless-1k.jpg
+exec --no-startup-id feh --bg-fill /PATH/TO/WALLPAPER/alena-aenami-endless-1k.jpg ########################################################################
 exec_always --no-startup-id picom -b --config ~/.config/picom.conf
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
