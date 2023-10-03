@@ -11,6 +11,7 @@ A small collection of the little ricing I do. This is mostly used with i3 tabbed
 - feh (Wallpaper) - v3.9.1
 - dunst (Notifications Daemon) - v1.9.2
 - terminator (Terminal Emulator) - v2.1.3
+- zsh (Shell) - v5.9
 
 All the files are to be put in ~/.config
 

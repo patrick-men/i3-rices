@@ -18,3 +18,7 @@ cp . ~/.config
   - Doki Theme YuruCamp: Rin
   - Material Product Icons
   - Atom Icons
+
+## Screenshots
+
+![Screenshot BWG, Terminator vscode](../Screenshots/ss_bwg.png)
