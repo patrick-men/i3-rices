@@ -31,7 +31,7 @@ Note that you can change the hotkeys (here: Ctrl + Alt + W), as well as change t
 
 ### Terminator
 
-If you want to use the same terminal emulator used in the config files, you'll need (https://github.com/gnome-terminator/terminator)[Terminator] (optioonally, you get the (https://github.com/EliverLara/terminator-themes)[theme plugin] as well).
+If you want to use the same terminal emulator used in the config files, you'll need [Terminator](https://github.com/gnome-terminator/terminator) (optionally, you get the [theme plugin](https://github.com/EliverLara/terminator-themes) as well).
 
 Once that is ready, you have two options:
 1. You use the plugin to download the themes used in the dotfiles - this will automatically create a profile with the name of the theme. This way, you can open the terminal with your chosen theme using `Ctrl + Alt + T`.
