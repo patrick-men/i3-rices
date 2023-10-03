@@ -1,0 +1,24 @@
+[global_config]
+  borderless = True
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+[keybindings]
+[profiles]
+  [[default]]
+  [[Brogrammer]]
+    background_color = "#131313"
+    background_darkness = 0.97
+    background_type = transparent
+    cursor_bg_color = "#b9b9b9"
+    foreground_color = "#d6dbe5"
+    show_titlebar = False
+    palette = "#1f1f1f:#f81118:#2dc55e:#ecba0f:#2a84d2:#4e5ab7:#1081d6:#d6dbe5:#d6dbe5:#de352e:#1dd361:#f3bd09:#1081d6:#5350b9:#0f7ddb:#ffffff"
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

@@ -4,13 +4,13 @@ A small collection of the little ricing I do. This is mostly used with i3 tabbed
 
 ## Dependencies:
 
-- i3-gaps (DE)
-- picom (Transparency)
-- polybar (Taskbar)
-- i3-lock/i3-lock-fancy (Screen Locking)
-- feh (Wallpaper)
-- dunst (Notifications Daemon)
-- terminator (Terminal Emulator)
+- i3-gaps (DE) - v4.22
+- picom (Transparency) - v10
+- polybar (Taskbar) - v3.6.3
+- i3-lock/i3-lock-fancy (Screen Locking) - v2.14.1
+- feh (Wallpaper) - v3.9.1
+- dunst (Notifications Daemon) - v1.9.2
+- terminator (Terminal Emulator) - v2.1.3
 
 All the files are to be put in ~/.config
 
@@ -26,4 +26,18 @@ If you want to use it yourself, you'll need to verify the workspaces/monitor set
 bindsym Control+Mod1+w exec PATH/TO/xdotool.sh
 ```
 
-Note that you can change the hotkeys (here: ctrl + alt + w), as well as change the path to where you saved the script. Furthermore, play around with the sleeps; the way they are now, xdotool doesn't mess things up by being too fast, and it gives each program enough time to start (therefore avoiding that it opens in the workspace of the following command).
+Note that you can change the hotkeys (here: Ctrl + Alt + W), as well as change the path to where you saved the script. Furthermore, play around with the sleeps; the way they are now, xdotool doesn't mess things up by being too fast, and it gives each program enough time to start (therefore avoiding that it opens in the workspace of the following command).
+
+### Terminator
+
+If you want to use the same terminal emulator used in the config files, you'll need (https://github.com/gnome-terminator/terminator)[Terminator] (optioonally, you get the (https://github.com/EliverLara/terminator-themes)[theme plugin] as well).
+
+Once that is ready, you have two options:
+1. You use the plugin to download the themes used in the dotfiles - this will automatically create a profile with the name of the theme. This way, you can open the terminal with your chosen theme using `Ctrl + Alt + T`.
+2. You copy paste my Terminator configs, which already include the theme/profile in question
+
+> I recommend downloading the plugin, it has TONS of themes + setting the background of terminator to transparent, 0.97
+
+### Polybar - shapes
+
+This theme has the option to choose a color scheme (click on the heart icon) - pick whichever you feel fits best.
